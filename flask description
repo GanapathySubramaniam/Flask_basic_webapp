@@ -1,0 +1,20 @@
+flask project structure
+    -----website folder  
+        ----static folder
+        ----templates folder
+        ----__init__.py
+        ----models.py
+        ----views.py
+    ----main.py
+
+step 1 : initialize  and create the app in a function
+        and mention the secret key  in __init__.py
+
+step 2: importing the function created in above step into main.py and fethcing the app created
+        and running the app
+
+step 3: set the routes of webpages in views.py
+
+step 4 : import the views(blueprint) into the __init__.py and register the blueprint in    the      __init__.py
+
+
